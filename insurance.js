@@ -18,6 +18,6 @@ document.getElementById("renewal").addEventListener("change", function(){
 document.getElementById("claims").addEventListener("change", function(){
     //check if value is change then redirect to it's relevent page
     if(this.value){
-        window.open(this.value, 'black');
+        window.location.href = this.value;
     }
 })
