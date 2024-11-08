@@ -2,17 +2,17 @@
     margin-right: 0;
     margin-left: 0;
     margin-top: 0;
+    margin-bottom: 0;
+    
 }
 
 .container {
-    width: 1680x;
+    width: 100%;
     margin: auto;
-
 }
 
 .header {
     width: 1680x;
-    height: 600px;
     margin: auto;
     margin-top: 0;
     background: linear-gradient(to right,
@@ -20,7 +20,7 @@
             rgb(17, 9, 30) 80%);
     -webkit-background-clip: content-box;
     color: white;
-
+    text-wrap: nowrap;
 }
 
 .nav {
@@ -41,40 +41,79 @@
 }
 
 .button {
-
     align-content: center;
     margin: auto;
-    margin-left: 25%;
     padding: 10px;
 }
 
 #login {
-    width: 60px;
-    height: 40px;
+    width: 80px;
+    height: 50px;
+    margin-left: 250px;
+    border-radius: 7px;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    outline: none;
 
+}
+
+#login:hover{
+    background-color: rgb(229, 229, 229);
 }
 
 #signUp {
-    width: 70px;
-    height: 40px;
+    width: 80px;
+    height: 50px;
     margin-left: 10px;
-    border: 1px solid rgb(31, 235, 31);
-    background-color: rgb(31, 235, 31);
+    background-color: rgb(13, 194, 13);
     color: black;
+    border-radius: 7px;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    border: none;
+    outline: none;
 }
 
+#signUp:hover{
+    background-color: green;
+}
+
+#select, #renewal, #claims{
+    width: 85px;
+    height: 30px;
+    margin-top: 20px;
+    font-size: medium;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+#claims{
+    width: 75px;
+}
+
+.products{
+    color: white;
+    background-color: rgb(62, 15, 97);
+    width: 500px;
+    accent-color: rgb(226, 240, 240);
+}
 
 .tag {
     display: flex;
     margin: auto;
     margin-top: 5%;
-    margin-left: 120px;
+    margin-left: 70px;
 }
 
 .tag>img {
     width: 480px;
     height: 300px;
-    margin-right: 18%;
+    margin-right: 15%;
+    padding-bottom: 150px;
 }
 
 .tag>div {
@@ -89,13 +128,12 @@
     font-size: 350%;
 }
 
-.tag>div>h2,
-h3 {
+.tag>div>h2,h3 {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(49, 240, 145);
 
 }
-
+ 
 #divh3 {
     color: white;
 }
@@ -113,6 +151,78 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     margin-top: 10px;
+}
+
+.tag>div>button:hover{
+    background-color: green;
+}
+
+#gtiContainer{
+    display: none;
+    width: 550px;
+    height: 550px;
+    position: fixed;
+    background-color: whitesmoke;
+    align-content: center;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: -28%;
+    color: black;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.qrh1{
+   font-size: 30px;
+   font-weight: bolder;
+   margin-bottom: 20px;
+}
+
+.qrinput{
+    width: 90%;
+    height: 50px;
+    border: none;
+    margin-bottom: -50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.qrbutton{
+    width: 90%;
+    height: 50px;
+    margin-top: 40px;
+    background-color: rgb(24, 175, 24);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.qrbutton:hover{
+    background-color: green;
+}
+
+.qrdiv{
+    margin-top: 30px;
+    height: 130px;
+}
+
+.closebtn{
+    position: absolute;
+    margin-left: 140px;
+    margin-top: -23%;
+    background: transparent;
+    border: none;
+    font-size: large;
+}
+
+.h1paraDiv{
+    width: 95%;
+    text-wrap: wrap;
+    text-align: center;
 }
 
 .insurance {
@@ -145,6 +255,10 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     margin-top: 10px;
+}
+
+.app>:first-child>button:hover{
+    background-color: green;
 }
 
 .logo {
@@ -256,6 +370,10 @@ h3 {
     margin-top: 10px;
 }
 
+.car>div>button:hover{
+    background-color: green;
+}
+
 .gift {
     display: flex;
     margin: auto;
@@ -274,30 +392,27 @@ h3 {
 
 }
 
-.phone>:first-child>input {
-    height: 30px;
-    width: 193.7px;
-    background-color: white;
-    border: 1px solid white;
+#couponButton{
+    width: 200px;
+    height: 45px;
+    margin-top: 50px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    background-color: rgb(20, 175, 20);
 }
 
-.phone>:first-child {
-    width: 230px;
-    height: 40px;
-    border: 1px solid white;
-    align-content: center;
-    background-color: white;
-    border-radius: 5px;
-}
-
-.phone>:last-child {
-    display: flex;
-    gap: 5px;
+#couponButton:hover{
+    background-color: green;
 }
 
 .input {
     margin: auto;
     margin-right: 150px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .input>h1 {
@@ -305,6 +420,11 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
     margin-top: 25%;
+}
+
+.input>p{
+    margin-top: 20px;
+    
 }
 
 #deal {
@@ -322,6 +442,10 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     border: 1px solid rgb(13, 176, 13);
+}
+
+#button:hover{
+    background-color: green;
 }
 
 .users {
@@ -371,6 +495,10 @@ h3 {
     margin-top: 10px;
 }
 
+.userschild1>button:hover{
+    background-color: green;
+}
+
 .users>:last-child>img {
     width: 430px;
     height: 350px;
@@ -402,6 +530,8 @@ h3 {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 .techChild>p {
@@ -496,6 +626,7 @@ h3 {
     margin-left: 25%;
     display: flex;
     gap: 10px;
+   
 }
 
 .selector>img {
@@ -506,8 +637,10 @@ h3 {
 #my_account {
     height: 35px;
     margin-top: 20px;
-    background-color: rgb(3, 3, 3);
+    background-color:transparent;
     color: white;
+    border: none;
+    outline: none;
 }
 
 .selector>select>option {
@@ -515,12 +648,15 @@ h3 {
     color: black;
 }
 
-#signout {
-    width: 60px;
-    height: 40px;
-    margin-top: 15px;
-    margin-right: 20px;
-    background-color: rgb(13, 176, 13);
+#logoutbtn {
+    background-color: rgb(23, 157, 23);
+    margin-top: 18px;
+    border: none;
     color: white;
-    border: 1px solid rgb(13, 176, 13);
+    border-radius: 7px;
+   
+}
+
+#logoutbtn:hover{
+    background-color: green;
 }

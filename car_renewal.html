@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Insurance</title>
+    <link rel="stylesheet" href="car_renewal.css">
+</head>
+<body>
+    <!-- ceate a main div container -->
+    <main class="container">
+         <!-- create a navbar -->
+        <nav class="nav">
+            <!-- image tag for official logo -->
+            <a class="" href="car_renewal.html"><img src="https://carbon.ackodev.com/images/acko-logo-dark-theme.svg" alt="acko logo"></a>
+            <!-- ceate select tag to show the products of the app -->
+            <select id="select">
+                <option value="" class="products">Products</option>
+                <option value="health_insurance.html" class="products">Health Insurance</option>
+                <option value="car_insurance.html" class="products">Car Insurance</option>
+                <option value="bike_insurance.html" class="products">Bike Insurance</option>
+                <option value="life_insurance.html" class="products">Life Insurance</option>
+            </select>
+            <!-- ceate select tag to show the products renewal of the app -->
+            <select id="renewal">
+                <option value="" class="products">Renewal</option>
+                <option value="health_renewal.html" class="products">Health Insurance</option>
+                <option value="car_renewal.html" class="products">Car Insurance</option>
+                <option value="bike_renewal.html" class="products">Bike Insurance</option>
+                <option value="life_insurance_renewal.html" class="products">Life Insurance</option>
+            </select>
+            <!-- ceate select tag to show the products claim of the app -->
+            <select id="claims">
+                <option value="" class="products">Claims</option>
+                <option value="login_page.html" class="products">Health Insurance Claim</option>
+                <option value="login_page.html" class="products">Car Insurance Claim</option>
+                <option value="login_page.html" class="products">Bike Insurance Claim</option>
+                <option value="login_page.html" class="products">Life Insurance Claim</option>
+            </select>
+            <!-- buttons div for login and sign up -->
+            <div class="button">
+                <a href="login_page.html"><button id="login">Login</button></a>   
+                <a href="signup_page.html"><button id="signUp">Sign Up</button></a>
+            </div>
+        </nav>
+        <!-- div tag to show car insurance policies and details -->
+        <div class="carInsurance">
+            <div class="carDetail">
+                <h1>Renew Car Insurance</h1>
+                <h2>Car insurance price starting at just ₹2,094*</h2>
+                <h3>Buy or Renew Car Insurance Online in 2 Minutes ⚡️</h3>
+                <input type="text" class="ciPrice" placeholder="Ente your car number">
+                <input type="button" value="Check Prices" class="checkbutton">
+                <p class="uid">UID: 6141 | *T&Cs apply</p>
+                <div class="ncInsurance">
+                    <!-- image tag to show car iamge -->
+                    <img src="https://acko-seo-prod.ackoassets.com/_next_static/images/car-new-flow-banner.svg" alt="car logo">
+                    <div class="caraPara">
+                        <h3>Looking to insure brand new car?</h3>
+                        <h4>Zero commissions, big savings</h4>
+                    </div>
+                    <input type="button" value="Check Prices" class="checkbutton2">
+                </div>
+                <p class="existing">EXISTING ACKO CUSTOMER?</p>
+                <a href="" class="renewalLogin" ><h3>Login and renew policy</h3></a>
+            </div>
+            <!-- image tag under a div tag to show display picture  -->
+            <div class="herocar">
+                <img src="https://acko-cms.ackoassets.com/640x640_Saif_and_Sarah_Car_cb4ec7e07d.webp?fm=webp&w=640&q=75" alt="Saif,Sarah_and_Car_logo">
+            </div>
+        </div>
+    </main>
+    <!-- footer div to show extra info about product -->
+    <footer class="footer">
+        <p class="redirect">Home / Motor Insurance / Car Insurance</p>
+        <div class="ciInfo">
+            <h2>What is Car Insurance?</h2>
+            <p>Car insurance, also referred to as motor or auto insurance, is an insurance policy that provides you financial protection if your vehicle suffers damages due to accidents, natural disasters, or thefts. <p></p>
+            <br>
+                With a Comprehensive Car Insurance Policy, you will be financially secured in case of any losses to your vehicle due to an unfortunate event. 
+                Apart from that, a private car insurance policy also covers third-party liabilities and ensures that you comply with the law of the land. <p></p>
+            <br>
+                Whether you are looking to buy a new car insurance policy to comply with the legal norms or looking for comprehensive coverage, 
+                ACKO has it all! We offer insurance policies, including private car insurance, third-party car insurance, comprehensive car insurance, 
+                and own-damage car insurance online at incredibly low premiums. At ACKO, you will also be able to enjoy a hassle-free car insurance renewal process. </p>
+        </div>
+    </footer>
+</body>
+<!-- script tag to link html to javascript -->
+<script src="insurance.js"></script>
+</html>

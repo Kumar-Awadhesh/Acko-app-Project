@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Insurance</title>
+    <link rel="stylesheet" href="health_insurance.css">
+</head>
+<body>
+    <!-- ceate a main div container -->
+    <main class="health">
+        <!-- create a navbar -->
+        <nav class="nav">
+            <!-- image tag for official logo -->
+            <a class="" href="health_insurance.html"><img src="https://carbon.ackodev.com/images/acko-logo-dark-theme.svg" alt="acko logo"></a>
+            <!-- ceate select tag to show the products of the app -->
+            <select id="select">
+                <option value="" class="products">Products</option>
+                <option value="health_insurance.html" class="products">Health Insurance</option>
+                <option value="car_insurance.html" class="products">Car Insurance</option>
+                <option value="bike_insurance.html" class="products">Bike Insurance</option>
+                <option value="life_insurance.html" class="products">Life Insurance</option>
+            </select>
+            <!-- ceate select tag to show the products renewal of the app -->
+            <select id="renewal">
+                <option value="" class="products">Renewal</option>
+                <option value="health_renewal.html" class="products">Health Insurance</option>
+                <option value="car_renewal.html" class="products">Car Insurance</option>
+                <option value="bike_renewal.html" class="products">Bike Insurance</option>
+                <option value="life_insurance_renewal.html" class="products">Life Insurance</option>
+            </select>
+            <!-- ceate select tag to show the products claim of the app -->
+            <select id="claims">
+                <option value="" class="products">Claims</option>
+                <option value="login_page.html" class="products">Health Insurance Claim</option>
+                <option value="login_page.html" class="products">Car Insurance Claim</option>
+                <option value="login_page.html" class="products">Bike Insurance Claim</option>
+                <option value="login_page.html" class="products">Life Insurance Claim</option>
+            </select>
+            <!-- buttons div for login and sign up -->
+            <div class="button">
+                <a href="login_page.html"><button id="login">Login</button></a>   
+                <a href="signup_page.html"><button id="signUp">Sign Up</button></a>
+            </div>
+        </nav>
+        <!-- div tag to show health insurance policies and details -->
+        <div class="healthInsurance">
+            <div class="healthImage">
+                <img class="plus" src="https://acko-seo-prod.ackoassets.com/_next_static/images/health/plus_left_tilt.svg?w=96&q=75" alt="plus logo">
+                <img class="hero" src="https://acko-cms.ackoassets.com/health_insurance_70cdbe9582.webp?fm=webp&w=1200&q=75" alt="hero logo">
+                <h1 class="hiPlans">Health Insurance Plans & Save taxes upto ₹75,000</h1>
+                <h3 class="hiPara">
+                    Health insurance, also known as Medical insurance Plans/Policy, is an essential financial tool that covers the cost of medical
+                    treatment for injuries & illnesses, but also offers potential tax savings of up to ₹75,000, starting from just ₹30/Day*
+                </h3>
+                <!-- div tag to show relavant images -->
+                <div class="benefits">
+                    <div class="benefitsChild">
+                        <img src="https://acko-seo-prod.ackoassets.com/_next_static/images/health/no_waiting_period.svg" alt="watch logo">
+                        <h4>Zero</h4>
+                        <p>Waiting period</p>
+                    </div>
+                    <div class="benefitsChild">
+                        <img src="https://acko-seo-prod.ackoassets.com/_next_static/images/health/treatment_covered.svg" alt="shield logo">
+                        <h4>14,300+</h4>
+                        <p>Cashless hospitals</p>
+                    </div>
+                    <div class="benefitsChild">
+                        <img src="https://acko-seo-prod.ackoassets.com/_next_static/images/health/success_great_approved_congrats.svg" alt="like logo">
+                        <h4>100%</h4>
+                        <p>Bills covered</p>
+                    </div>
+                </div>
+            </div>
+            <!-- form tag to fill personal details for insurance -->
+            <div class="form">
+                <h2 class="formChildh2">Who would you like to insure?</h2>
+                <!-- div tag to show all types of image relevant to the policies -->
+                <div class="category">
+                    <div class="avtrdiv">
+                        <img class="avatar" src="https://static.vecteezy.com/system/resources/previews/020/911/740/non_2x/user-profile-icon-profile-avatar-user-icon-male-icon-face-icon-profile-icon-free-png.png" alt="profile logo">
+                        <div class="checkboxDiv"><input type="checkbox" id="checkboxInput"></div>
+                        <p>Self</p>
+                    </div>
+                    <div class="avtrdiv">
+                        <img class="avatar" src="https://cdn0.iconfinder.com/data/icons/valentine-2029/64/VALENTINE_3-08-512.png" alt="spouse logo">
+                        <div class="scbDiv"><input type="checkbox" id="checkboxInput"></div>
+                        <p>Spouse</p>
+                    </div>
+                    <div class="avtrdiv">
+                        <img class="avatar" src="https://png.pngtree.com/png-clipart/20230606/original/pngtree-black-and-white-cartoon-of-a-baby-head-outline-sketch-drawing-png-image_9181305.png" alt="child logo">
+                        <div class="checkboxDiv"><input type="checkbox" id="checkboxInput"></div>
+                        <p>Child</p>
+                    </div>
+                    <div class="avtrdiv">
+                        <img class="avatar" src="https://cdn3.iconfinder.com/data/icons/hug/512/Artboard_1-512.png" alt="parent logo">
+                        <div class="pcbDiv"><input type="checkbox" id="checkboxInput"></div>
+                        <p>Parent</p>
+                    </div>
+                    <div class="avtrdiv">
+                        <img class="avatar" src="https://www.scotsburndental.com/files/images/viewsupload/family-icon.png" alt="in-law logo">
+                        <div class="gpcbDiv"><input type="checkbox" id="checkboxInput"></div>
+                        <p>Parent In-Law</p>
+                    </div>
+                </div>
+                <div class="inputdiv">
+                    <p>Age of the eldest member (self, spouse)</p>
+                    <input type="number" class="input">
+                </div>
+                <div class="personalInfo">
+                    <div class="phone">
+                        <label for="phone">+91</label>
+                        <input type="number" id="phone" placeholder="Your phone number">
+                    </div>
+                    <input type="number" class="pincode" placeholder="Your pincode">
+                </div>
+                <input type="button" value="Check prices" id="checkbutton">
+                <!-- footer div to show extra info about product -->
+                <div class="footer">
+                    <p>Join <b>7,52,30,214 happy ACKO customers today</b></p>
+                    <p>UID: 5689 | *T&Cs Apply</p>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+</body>
+<!-- script tag to link html to javascript -->
+<script src="insurance.js"></script>
+</html>

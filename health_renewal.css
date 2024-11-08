@@ -1,0 +1,275 @@
+* {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.nav {
+    display: flex;
+    gap: 70px;
+    margin: auto;
+    margin-left: 120px;
+}
+
+.nav>h3 {
+    margin-top: 25px;
+    font-weight: lighter;
+    color: white;
+}
+
+.nav>a {
+    margin-top: 20px;
+}
+
+.button {
+
+    align-content: center;
+    margin: auto;
+    margin-left: 25%;
+    padding: 10px;
+}
+
+#login {
+    width: 80px;
+    height: 50px;
+    margin-left: 90px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+
+}
+
+#signUp {
+    width: 80px;
+    height: 50px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(31, 235, 31);
+    color: black;
+    border-radius: 7px;
+}
+
+#select, #renewal, #claims{
+    width: 85px;
+    height: 30px;
+    margin-top: 20px;
+    font-size: medium;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+#claims{
+    width: 75px;
+}
+
+.products{
+    color: white;
+    background-color: rgb(101, 50, 230);
+}
+
+/* Health Renewal */
+
+.healthInsurance{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.health{
+    background-color: rgb(101, 50, 230);
+    padding-bottom: 100px;
+}
+
+.hero{
+   width: 300px;
+   height: 260px;
+   margin-bottom: 20px;
+}
+
+.plus{
+    width: 90px;
+    margin-bottom: 90px;
+    margin-right: 70px;
+}
+
+.healthImage{
+    width: 500px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form{
+    width: 550px;
+    height: 500px;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 50px;
+    justify-content: space-around;
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+.formChildh2{
+    margin-bottom: 30px;
+}
+
+.category{
+    display: flex;
+    justify-content: space-around;
+}
+
+.checkboxDiv{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 30px;
+}
+
+#checkboxInput{
+    width: 14px;
+    height: 15px;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+    accent-color: green;
+    
+}
+
+.scbDiv, .pcbDiv{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 40px;
+}
+
+.gpcbDiv{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 63px;
+}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(241, 237, 237);
+  
+}
+
+.avtrdiv{
+    text-align: center;
+}
+
+.hiPlans, .hiPara{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.benefits{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.benefitsChild{
+    width: 140px;
+    height: 120px;
+    color: white;
+    border-radius: 20px;
+    align-content: center;
+    background-color: rgb(78, 41, 173);
+}
+
+.inputdiv{
+    display: flex;
+    margin-top: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px dotted;
+    justify-content: space-between;
+}
+
+.input{
+    width: 60px;
+    height: 30px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+   
+}
+
+.personalInfo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#phone{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 40px;
+}
+
+#pincode{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 40px;
+}
+
+.pincode{
+    width: 250px;
+    height: 40px;
+    border-radius: 7px;
+    padding-left: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.phone{
+    width: 250px;
+    border: none;
+    border-radius: 7px;
+    padding-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+#checkbutton{
+    width: 100%;
+    height: 45px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 60px;
+    background-color: rgb(13, 176, 13);
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+#checkbutton:hover{
+    background-color: green;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 10px;
+    font-size: small;
+}
+
+.footer>:first-child{
+    margin-bottom: 20px;
+}
+
+.footer>:nth-child(3){
+    margin-top: 30px;
+    margin-bottom: 5px;
+}

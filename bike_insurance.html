@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Insurance</title>
+    <link rel="stylesheet" href="bike_insurance.css">
+</head>
+<body>
+    <!-- ceate a main div container -->
+    <main class="container">
+        <!-- create a navbar -->
+        <nav class="nav">
+            <!-- image tag for official logo -->
+            <a class="" href="bike_insurance.html"><img src="https://carbon.ackodev.com/images/acko-logo-dark-theme.svg" alt="acko logo"></a>
+            <!-- ceate select tag to show the products of the app -->
+            <select id="select">
+                <option value="" class="products">Products</option>
+                <option value="health_insurance.html" class="products">Health Insurance</option>
+                <option value="car_insurance.html" class="products">Car Insurance</option>
+                <option value="bike_insurance.html" class="products">Bike Insurance</option>
+                <option value="life_insurance.html" class="products">Life Insurance</option>
+            </select>
+             <!-- ceate select tag to show the products renewal of the app -->
+            <select id="renewal">
+                <option value="" class="products">Renewal</option>
+                <option value="health_renewal.html" class="products">Health Insurance</option>
+                <option value="car_renewal.html" class="products">Car Insurance</option>
+                <option value="bike_renewal.html" class="products">Bike Insurance</option>
+                <option value="life_insurance_renewal.html" class="products">Life Insurance</option>
+            </select>
+             <!-- ceate select tag to show the products claims of the app -->
+            <select id="claims">
+                <option value="" class="products">Claims</option>
+                <option value="login_page.html" class="products">Health Insurance Claim</option>
+                <option value="login_page.html" class="products">Car Insurance Claim</option>
+                <option value="login_page.html" class="products">Bike Insurance Claim</option>
+                <option value="login_page.html" class="products">Life Insurance Claim</option>
+            </select>
+            <!-- buttons div for login and sign up -->
+            <div class="button">
+                <!-- anchor tag with buttons to redirect to it's relevant's button page -->
+                <a href="login_page.html"><button id="login">Login</button></a>   
+                <a href="signup_page.html"><button id="signUp">Sign Up</button></a>
+            </div>
+        </nav>
+        <!-- div tag to show bike insurance policies and details -->
+        <div class="bikeInsurance">
+            <div class="bikeDetail">
+                <h2>Bike Insurance</h2>
+                <h3>Bike insurance price starting at just ₹457*</h3>
+                <h4>Buy or Renew Two Wheeler Insurance Online in 2 Minutes ⚡️</h4>
+                <input type="text" class="biPrice" placeholder="Ente your bike number">
+                <input type="button" value="Check Prices" class="checkbutton">
+                <p class="uid">UID: 5666 | *T&Cs apply</p>
+                <div class="nbInsurance">
+                    <!-- image tag to show bike iamge -->
+                    <img src="https://acko-seo-prod.ackoassets.com/_next_static/images/bike-new-flow-banner.svg" alt="bike logo">
+                    <div class="bikePara">
+                        <h4>Looking to insure brand new bike?</h4>
+                        <p>Zero commissions, pig savings</p>
+                    </div>
+                    <input type="button" value="Check Prices" class="checkbutton2">
+                </div>
+            </div>
+            <!-- image tag under a div tag to show display picture  -->
+            <div class="herobike">
+                <img src="https://acko-cms.ackoassets.com/640x640_Saif_and_Sarah_Bike_14a7bd6e85.webp?fm=webp&w=640&q=75" alt="Saif,Sarah_and_Bike_logo">
+            </div>
+        </div>
+    </main>
+    <!-- footer div to show extra info about product -->
+    <footer class="footer">
+        <p class="redirect">Home / Motor Insurance / Car Insurance</p>
+        <div class="biInfo">
+            <h2>What is Bike Insurance?</h2>
+            <p>Bike insurance or two-wheeler insurance is an insurance policy that covers you against damages to your two-wheeler due to accidents, natural/man-made</p><br>
+            <p>disasters, fire, and theft. The motorcycle insurance policy also provides law-mandated coverage against third-party liabilities such as damage to another person’s</p><br>
+            <p>vehicle/property or injuries/death of a third party caused due to the insured two-wheeler. You can buy insurance for two-wheeler to get coverage for motorcycles,</p><br>
+            <p>scooters, mopeds, etc. </p>
+        </div>
+    </footer>
+</body>
+<!-- script tag to link html to javascript -->
+<script src="insurance.js"></script>
+</html>

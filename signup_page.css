@@ -1,0 +1,105 @@
+* {
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+body {
+    display: flex;
+    
+}
+
+form {
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    
+}
+
+.login {
+    width: 700px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.login>p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.login>img {
+    margin-left: 35%;
+}
+
+.login>h2 {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.login>:last-child{
+    margin-top: 20%;
+}
+
+.policy>img {
+    width: 250px;
+    margin-top: 10%;
+    margin-left: 31.5%;
+}
+
+.policy {
+
+    width: 1230px;
+    height: 800px;
+    margin-left: 18%;
+    background-color: rgb(242, 239, 249);
+}
+
+.policy>h1,
+h2 {
+    text-align: center;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.policy>h4 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-top: 60px;
+}
+
+.account {
+    display: flex;
+    justify-content: space-around;
+}
+
+.account>h4 {
+    font-weight: lighter;
+    margin-top: 40px;
+}
+
+#name, #phone, #email, #signupButton{
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+#signupButton{
+    background-color: rgb(19, 167, 19);
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+}
+
+#signupButton:hover{
+    background-color: green;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Insurance</title>
+    <link rel="stylesheet" href="life_insurance_renewal.css">
+</head>
+<body>
+    <!-- ceate a main div container -->
+    <main class="container">
+        <!-- create a navbar -->
+        <nav class="nav">
+            <!-- image tag for official logo with achor tag to redirect to homepage-->
+            <a class="" href="life_insurance_renewal.html"><img src="https://carbon.ackodev.com/images/acko-logo-dark-theme.svg" alt="acko logo"></a>
+            <!-- ceate select tag to show the products of the app -->
+            <select id="select">
+                <option value="" class="products">Products</option>
+                <option value="health_insurance.html" class="products">Health Insurance</option>
+                <option value="car_insurance.html" class="products">Car Insurance</option>
+                <option value="bike_insurance.html" class="products">Bike Insurance</option>
+                <option value="life_insurance.html" class="products">Life Insurance</option>
+            </select>
+            <!-- ceate select tag to show the products renewal of the app -->
+            <select id="renewal">
+                <option value="" class="products">Renewal</option>
+                <option value="health_renewal.html" class="products">Health Insurance</option>
+                <option value="car_renewal.html" class="products">Car Insurance</option>
+                <option value="bike_renewal.html" class="products">Bike Insurance</option>
+                <option value="life_insurance_renewal.html" class="products">Life Insurance</option>
+            </select>
+            <!-- ceate select tag to show the products claim of the app -->
+            <select id="claims">
+                <option value="" class="products">Claims</option>
+                <option value="login_page.html" class="products">Health Insurance Claim</option>
+                <option value="login_page.html" class="products">Car Insurance Claim</option>
+                <option value="login_page.html" class="products">Bike Insurance Claim</option>
+                <option value="login_page.html" class="products">Life Insurance Claim</option>
+            </select>
+            <!-- buttons div for login and sign up -->
+            <div class="button">
+                <a href="logged_in.html"><button id="login">Login</button></a>   
+                <a href="signup_page.html"><button id="signUp">Sign Up</button></a>
+            </div>
+        </nav>
+        <!-- div tag to show insurance policies and details -->
+        <div class="liPara">
+            <p class="litag">LIFE INSURANCE</p>
+            <p>Life insurance policy is a contract-based promise established between the policyholder, 
+                who is the insured individual, and the insurer. Under this <br> agreement, the policyholder must pay the insurer 
+                a fixed amount (premium payments). In exchange for these premiums, the insurer commits to <br> providing a sum of money, 
+                known as the death benefit, to the beneficiary chosen by the policyholder in case of the policyholder's demise. 
+                Life <br> insurance comes in different types, and some plans also provide the maturity benefit if the policyholder outlives the policy term.</p>
+        </div>
+        <!-- div tag to show insurance policies and savings -->
+        <div class="term">
+            <div class="welcome">
+                <h1>Term Life Insurance that Welcomes Change</h1>
+                <p>Life Cover Starting @ just ₹18/day*</p>
+                <div class="choose">
+                    <img src="https://acko-cms.ackoassets.com/Growing_family_9a4ca85893.svg" alt="Growing_family">
+                    <div>
+                        <h4>Choose India’s Only Personalised Term Plan</h4>
+                        <p>Modify coverage as per your life stages & commitments</p>
+                    </div>
+                </div>
+                <div class="hassle">
+                    <img src="https://acko-cms.ackoassets.com/Claim_received_a94f82c96a.svg" alt="Claim_received">
+                    <div>
+                        <h4>Hassle-Free Claim Settlement</h4>
+                        <p>99.38% Claim settlement ratio*</p>
+                    </div>
+                </div>
+                <div class="smart">
+                    <img src="https://acko-cms.ackoassets.com/Tax_saving_money_benefit_d3f1fa02d8.svg" alt="saving pot">
+                    <div>
+                        <h4>Smart Income Tax Savings</h4>
+                        <p>Save up to ₹54,600* on your taxes</p>
+                    </div>
+                </div>
+            </div>
+            <!-- form tag to fill personal details for insurance -->
+            <div class="form">
+                <h2>Renew your life insurance cover</h2>
+                <p>Your Name</p>
+                <input type="text" id="name" placeholder="e.g John">
+                <p>Your gender</p>
+                <span class="male"><input type="checkbox" name="male" id="maleCheckbox"> <span>Male</span></span>
+                <span class="female"><input type="checkbox" name="female" id="femaleCheckbox"> <span>Female</span></span>
+                <p>Have you smoked in the past 12 months?</p>
+                <span class="yes"><input type="checkbox" name="yes" id="yesCheckbox"> <span>Yes</span></span>
+                <span class="no"><input type="checkbox" name="no" id="noCheckbox"> <span>No</span></span>
+                <div class="ageNpin">
+                    <div>
+                        <p>Your age</p>
+                        <input type="number" id="ageInput" placeholder="e.g 25">
+                    </div>
+                    <div>
+                        <p>Your pin code</p>
+                        <input type="number" id="pincode" placeholder="e.g 560078">
+                    </div>
+                </div>
+                <p>Your phone number</p>
+                <input type="number" id="phone" placeholder="e.g 9000090000"> <br>
+                <input type="button" value="Check Prices" id="priceButton">
+                <p class="arn1">ARN: L0053 | *T&Cs Apply</p>
+                <p class="existing">EXISTING ACKO CUSTOMER?</p>
+                <a href="" class="renewalLogin" ><h3>Login and renew policy</h3></a>
+            </div>
+        </div>
+        <p class="arn">ARN: L0088 | *T&Cs Apply</p>
+    </main>
+</body>
+<!-- script tag to link html to javascript -->
+<script src="insurance.js"></script>
+</html>

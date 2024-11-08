@@ -1,0 +1,200 @@
+* {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.nav {
+    display: flex;
+    gap: 70px;
+    margin: auto;
+    margin-left: 120px;
+}
+
+.nav>h3 {
+    margin-top: 25px;
+    font-weight: lighter;
+    color: white;
+}
+
+.nav>a {
+    margin-top: 20px;
+}
+
+.button {
+
+    align-content: center;
+    margin: auto;
+    margin-left: 25%;
+    padding: 10px;
+}
+
+#login {
+    width: 80px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+
+}
+
+#signUp {
+    width: 80px;
+    height: 50px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(31, 235, 31);
+    color: black;
+    border-radius: 7px;
+}
+
+#select, #renewal, #claims{
+    width: 85px;
+    height: 30px;
+    margin-top: 20px;
+    font-size: medium;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+#claims{
+    width: 75px;
+}
+
+.products{
+    color: white;
+    background-color: rgb(102, 56, 219);
+}
+
+
+/* bike Renewal */
+
+.container{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(102, 56, 219);
+    padding-bottom: 50px;
+}
+
+.bikeInsurance{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.bikeDetail{
+    width: 500px;
+    color: white;
+    padding: 10px;
+    align-content: center;
+   
+}
+
+.bikeDetail>h1,h2,h3{
+    margin-bottom: 10px;
+}
+
+.biPrice{
+    width: 95%;
+    height: 70px;
+    margin-top: 30px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.checkbutton{
+    width: 140px;
+    height: 45px;
+    position: absolute;
+    margin-left: -155px;
+    margin-top: 43px;
+    background-color: rgb(21, 204, 21);
+    border: none;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+}
+
+.checkbutton:hover{
+    background-color: green;
+}
+
+.uid{
+    font-size: x-small;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.nbInsurance{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(66, 27, 158);
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    align-content: center;
+}
+
+.checkbutton2{
+    width: 110px;
+    height: 40px;
+    background-color: rgb(66, 27, 158);
+    border: 1px solid white;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.existing{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.renewalLogin{
+    color: white;
+}
+
+.herobike{
+    width: 400px;
+}
+
+.herobike>img{
+    width: 380px;
+}
+
+.redirect{
+    margin-left: 10%;
+    margin-top: 30px;
+    font-size: small;
+    
+}
+
+.biInfo>h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+   
+}
+
+.biInfo{
+    width: 1070px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.footer{
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.biInfo>p{
+    font-size: 15px;
+   
+}

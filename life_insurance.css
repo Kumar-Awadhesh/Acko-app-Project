@@ -1,0 +1,226 @@
+* {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.nav {
+    display: flex;
+    gap: 70px;
+    margin: auto;
+    margin-left: 120px;
+}
+
+.nav>h3 {
+    margin-top: 25px;
+    font-weight: lighter;
+    color: white;
+}
+
+.nav>a {
+    margin-top: 20px;
+}
+
+.button {
+
+    align-content: center;
+    margin: auto;
+    margin-left: 25%;
+    padding: 10px;
+}
+
+#login {
+    width: 80px;
+    height: 50px;
+    margin-left: 97px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+
+}
+
+#signUp {
+    width: 80px;
+    height: 50px;
+    margin: auto;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(31, 235, 31);
+    color: black;
+    border-radius: 7px;
+}
+
+#select, #renewal, #claims{
+    width: 85px;
+    height: 30px;
+    margin-top: 20px;
+    font-size: medium;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: black;
+}
+
+#claims{
+    width: 75px;
+}
+
+.products{
+    color: black;
+    background-color: rgb(221, 229, 233);
+    width: 500px;
+}
+
+/* Life Insurance */
+
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    background-image: url("https://i.postimg.cc/SsZwr69K/image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.liPara{
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.litag{
+    color: rgb(116, 34, 231);
+    margin-top: 10PX;
+    margin-bottom: 20PX;
+}
+
+.term{
+    width: 83%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.welcome{
+    width: 55%;
+}
+
+.welcome>h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.arn{
+    width: 83%;
+    margin: auto;
+    font-size: small;
+    padding-bottom: 30px;
+}
+
+.term{
+    display: flex;
+}
+
+.choose, .hassle, .smart{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.choose{
+    margin-top: 40px;
+}
+
+.form{
+    width: 42%;
+    padding: 20px;
+    padding-top: 50px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.form>h2{
+    margin-bottom: 30px;
+}
+
+.form>p{
+    margin-bottom: 10px;
+}
+.form>input{
+    margin-bottom: 30px;
+}
+
+.ageNpin{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ageNpin>div{
+    margin-bottom: 30px;
+}
+
+.arn1{
+    font-size: x-small;
+    text-align: center;
+    margin-top: -20px;
+}
+
+#name, #phone, #priceButton{
+    width: 96%;
+    height: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+#priceButton{
+    padding: 15px 0 35px 0;
+    background-color: rgb(14, 162, 88);
+    font-size: medium;
+    font-weight: bold;color: white;
+    margin-left: 5px;
+
+}
+
+#priceButton:hover{
+    background-color: green;
+}
+
+#ageInput, #pincode{
+    width: 210px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    margin-top: 10px;
+}
+
+.male, .female, .yes, .no{
+    padding: 15px 161px 15px 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    background-color: rgb(242, 247, 248);
+}
+
+#maleCheckbox, #yesCheckbox{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+#maleCheckbox, #yesCheckbox, #femaleCheckbox, #noCheckbox{
+    accent-color: green;
+}
+
+.yes, .no{
+    padding-right: 182px;
+}
+
+
