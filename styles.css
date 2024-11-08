@@ -643,6 +643,11 @@
     outline: none;
 }
 
+#my_account>option{
+    background-color: rgb(17, 9, 30);
+    color: white;
+}
+
 .selector>select>option {
     background-color: white;
     color: black;
